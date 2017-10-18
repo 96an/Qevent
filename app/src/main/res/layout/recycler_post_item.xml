@@ -22,8 +22,9 @@
                 android:layout_height="30dp"
                 android:background="@color/colorGreyDark"
                 android:text="October"
+                android:fontFamily="sans-serif"
                 android:textAlignment="center"
-                android:textColor="@color/colorWhite"
+                android:textColor="#fff"
                 android:textSize="20sp"
                 android:textStyle="bold|italic" />
 
@@ -33,6 +34,7 @@
                 android:layout_height="75dp"
                 android:background="@color/colorGreyLight"
                 android:text="5"
+                android:fontFamily="sans-serif"
                 android:textAlignment="center"
                 android:textColor="@color/colorWhite"
                 android:textSize="55sp"
@@ -53,6 +55,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:textColor="@color/colorBlue"
+                android:fontFamily="sans-serif"
+                android:ellipsize="end"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
@@ -62,8 +66,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="05dp"
-                android:textSize="13sp"
-                android:textStyle="bold" />
+                android:fontFamily="sans-serif"
+                android:ellipsize="end"
+                android:textSize="13sp" />
         </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

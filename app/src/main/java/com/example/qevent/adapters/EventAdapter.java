@@ -10,10 +10,8 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.qevent.Ev;
-import com.example.qevent.MainActivity;
 import com.example.qevent.R;
 import com.example.qevent.models.Events;
 
@@ -86,6 +84,7 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
             layout = (LinearLayout) itemView.findViewById(R.id.linearLayout);
         }
     }
+
 
     private class ItemFilter extends Filter {
 
