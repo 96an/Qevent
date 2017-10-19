@@ -11,7 +11,7 @@ import android.widget.Filterable;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.qevent.Ev;
+import com.example.qevent.EventDetails;
 import com.example.qevent.R;
 import com.example.qevent.models.Events;
 
@@ -53,7 +53,10 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
             holder.layout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent=new Intent(mContext, Ev.class);
+                    Intent intent=new Intent(mContext, EventDetails.class);
+                    intent.putExtra("title",events.title);
+                    intent.putExtra("date"+"month",events.date + " " + events.month);
+                    intent.putExtra("body",events.body);
                     mContext.startActivity(intent);
                 }
             });

@@ -10,9 +10,11 @@
     <color name="colorGreen">#4CAF50</color>
     <color name="colorBlue">#121e70</color>
     <color name="colorLightBlue">#162bb9</color>
-    <color name="colorWhite">#fff</color>
     <color name="colorGreyLight">#d5d5d5</color>
     <color name="colorGreyDark">#e09c9a9a</color>
     <color name="colorGrey">#f7f7f7</color>
+    <color name="colorDarkOrange">#e4780a</color>
+    <color name="colorLightOrange">#e99611</color>
+    <color name="colorWhite">#fff</color>
 
 </resources>

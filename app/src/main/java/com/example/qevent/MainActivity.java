@@ -199,7 +199,8 @@ public class MainActivity extends AppCompatActivity implements ConnectivityRecei
             public void onErrorResponse(VolleyError error) {
                 Log.e("error", error.getMessage());
             }
-        }){
+        })
+        {
 
             @Override
             protected Response<String> parseNetworkResponse(NetworkResponse response) {
@@ -208,7 +209,7 @@ public class MainActivity extends AppCompatActivity implements ConnectivityRecei
                     if (cacheEntry == null) {
                         cacheEntry = new Cache.Entry();
                     }
-                    final long cacheHitButRefreshed = 60* 60 * 1000; // cache will be hit, but also refreshed on background
+                    final long cacheHitButRefreshed = 0* 0 * 1000; // cache will be hit, but also refreshed on background
                     final long cacheExpired = 365 * 24 * 60 * 60 * 1000; // in 365 days this cache entry expires completely
                     long now = System.currentTimeMillis();
                     final long softExpire = now + cacheHitButRefreshed;

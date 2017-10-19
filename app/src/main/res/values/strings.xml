@@ -3,4 +3,5 @@
     <string name="internet_connected">Internet connected !</string>
     <string name="no_internet">No Internet Connection !</string>
     <string name="settings">Setting</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
