@@ -33,36 +33,44 @@
             <TextView
                 android:id="@+id/txt_title"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="35sp"
+                android:layout_height="50dp"
+                android:textSize="25sp"
                 android:textAlignment="center"
+                android:gravity="center"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/colorBlue"/>
+                android:background="#8e8e8e"
+                android:textColor="@color/colorWhite"/>
 
             <TextView
                 android:id="@+id/txt_date"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="25sp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="20sp"
                 android:textAlignment="center"
-                android:background="#fafafa"
                 android:text="ddd"
                 android:fontFamily="sans-serif"
-                android:textColor="#000"/>
+                android:textColor="@color/colorBlue"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBlue"/>
 
             <TextView
                 android:id="@+id/txt_body"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="#fafafa"
                 android:lineSpacingExtra="5sp"
-                android:layout_marginTop="10dp"
-                android:padding="5dp"
+                android:padding="16dp"
                 android:layout_gravity="center"
                 android:text="ttttttttttt"
                 android:fontFamily="sans-serif"
+                android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="15sp" />
+                android:textSize="15sp"/>
+
             </LinearLayout>
         </android.support.v7.widget.CardView>
     </android.support.design.widget.AppBarLayout>
